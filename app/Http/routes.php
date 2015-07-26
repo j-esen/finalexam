@@ -20,7 +20,7 @@
 //	'password' => 'Auth\PasswordController',
 //]);
 
-Route::get('contact',
+Route::get('/',
 	['as' => 'contact', 'uses' => 'AboutController@create']);
-Route::post('contact',
+Route::post('/',
 	['as' => 'contact_store', 'uses' => 'AboutController@store']);
